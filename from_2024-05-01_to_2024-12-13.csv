@@ -1,0 +1,134 @@
+Action,Time,ISIN,Ticker,Name,No. of shares,Price / share,Currency (Price / share),Exchange rate,Total,Currency (Total),Withholding tax,Currency (Withholding tax)
+Dividend (Dividend),2024-05-16 11:16:43,US0378331005,AAPL,"Apple",0.0321885000,0.21,USD,Not available,0.01,"GBP",0.00,USD
+Dividend (Dividend),2024-08-09 12:55:20,US00123Q1040,AGNC,"AGNC Investment",2.5772240000,0.10,USD,Not available,0.21,"GBP",0.05,USD
+Dividend (Dividend),2024-08-15 14:33:41,US56035L1044,MAIN,"Main Street Capital",0.5118020000,0.21,USD,Not available,0.08,"GBP",0.02,USD
+Dividend (Dividend),2024-08-15 14:40:03,US85254J1025,STAG,"STAG Industrial",0.6538070000,0.10,USD,Not available,0.05,"GBP",0.01,USD
+Dividend (Dividend),2024-08-15 15:03:37,US0378331005,AAPL,"Apple",0.5266696000,0.21,USD,Not available,0.09,"GBP",0.02,USD
+Dividend (Dividend),2024-08-15 15:28:27,US7561091049,O,"Realty Income",1.9855130000,0.22,USD,Not available,0.35,"GBP",0.08,USD
+Dividend (Dividend),2024-08-26 09:13:17,US6701002056,NVO,"Novo Nordisk",0.6963196000,0.38,USD,Not available,0.20,"GBP",0.10,USD
+Dividend (Dividend),2024-08-27 08:20:55,CA0636711016,BMO,"Bank of Montreal",0.3017000000,0.98,USD,Not available,0.22,"GBP",0.05,USD
+Dividend (Dividend),2024-08-28 08:49:07,IE00B42WWV65,VGOV,"Vanguard U.K. Gilt (Dist)",1.2199280000,0.06,GBP,Not available,0.08,"GBP",0.00,GBP
+Dividend (Dividend),2024-08-28 08:51:53,IE00BDD48R20,VUSC,"Vanguard USD Corporate 1-3 Year Bond (Dist)",0.5331910000,0.21,EUR,Not available,0.10,"GBP",-0.00,EUR
+Dividend (Dividend),2024-08-29 08:30:56,IE00B2NPKV68,SEMB,"iShares J.P. Morgan USD EM Bond (Dist)",0.2998386200,32.11,GBX,Not available,0.10,"GBP",-0.00,GBX
+Dividend (Dividend),2024-08-30 10:39:29,US8552441094,SBUX,"Starbucks",1.5421540000,0.48,USD,Not available,0.57,"GBP",0.13,USD
+Dividend (Dividend),2024-08-30 10:47:07,US5021751020,LTC,"LTC Properties",0.6934420000,0.16,USD,Not available,0.09,"GBP",0.02,USD
+Dividend (Dividend),2024-08-30 10:57:58,IE00BYXVWC37,STHS,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",2.2989400000,0.05,GBP,Not available,0.11,"GBP",0.00,GBP
+Dividend (Dividend),2024-08-30 11:00:15,IE00B7N3YW49,SSHY,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",0.2799210000,0.40,GBP,Not available,0.11,"GBP",-0.00,GBP
+Dividend (Dividend),2024-08-30 11:05:14,GB00B8SC6K54,UKW,"Greencoat UK Wind",69.6375348000,2.50,GBX,Not available,1.74,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-02 10:32:42,US0010551028,AFL,"Aflac",0.2779090000,0.43,USD,Not available,0.09,"GBP",0.02,USD
+Dividend (Dividend),2024-09-02 10:42:11,US3848021040,GWW,"WW Grainger",0.0268293000,1.74,USD,Not available,0.04,"GBP",0.01,USD
+Dividend (Dividend),2024-09-03 09:15:51,US1729081059,CTAS,"Cintas",0.1150415000,1.33,USD,Not available,0.12,"GBP",0.03,USD
+Dividend (Dividend),2024-09-03 09:19:16,US92826C8394,V,"Visa",0.6894583000,0.44,USD,Not available,0.23,"GBP",0.05,USD
+Dividend (Dividend),2024-09-03 09:34:22,US9311421039,WMT,"Walmart",0.3785510000,0.18,USD,Not available,0.05,"GBP",0.01,USD
+Dividend (Dividend),2024-09-06 11:51:40,US8243481061,SHW,"Sherwin-Williams",0.0747890000,0.61,USD,Not available,0.03,"GBP",0.01,USD
+Dividend (Dividend),2024-09-09 09:50:01,GB00B1ZBKY84,MONY,"MONY Group",26.8663239000,3.30,GBX,Not available,0.89,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-10 12:48:57,GB0008706128,LLOY,"Lloyds Banking Group",66.6847580000,1.06,GBX,Not available,0.71,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-10 13:00:26,US4781601046,JNJ,"Johnson & Johnson",0.1647750000,1.05,USD,Not available,0.13,"GBP",0.03,USD
+Dividend (Dividend),2024-09-10 13:09:50,US2910111044,EMR,"Emerson Electric",0.2247395000,0.45,USD,Not available,0.08,"GBP",0.02,USD
+Dividend (Dividend),2024-09-10 13:20:02,US1667641005,CVX,"Chevron",0.7291422000,1.39,USD,Not available,0.77,"GBP",0.18,USD
+Dividend (Dividend),2024-09-10 13:31:21,US4592001014,IBM,"IBM",0.1381846000,1.42,USD,Not available,0.15,"GBP",0.03,USD
+Dividend (Dividend),2024-09-11 08:52:13,US0394831020,ADM,"Archer-Daniels-Midland",0.4120370000,0.43,USD,Not available,0.13,"GBP",0.03,USD
+Dividend (Dividend),2024-09-11 08:59:13,US00123Q1040,AGNC,"AGNC Investment",2.5772240000,0.10,USD,Not available,0.20,"GBP",0.05,USD
+Dividend (Dividend),2024-09-12 11:50:44,US5949181045,MSFT,"Microsoft",0.4226661000,0.64,USD,Not available,0.21,"GBP",0.05,USD
+Dividend (Dividend),2024-09-12 12:05:17,US6935061076,PPG,"PPG Industries",0.2053533000,0.58,USD,Not available,0.09,"GBP",0.02,USD
+Dividend (Dividend),2024-09-12 12:11:55,US88579Y1010,MMM,"3M",0.2095789000,0.60,USD,Not available,0.10,"GBP",0.02,USD
+Dividend (Dividend),2024-09-13 11:19:56,GB00B24CGK77,RKT,"Reckitt Benckiser",0.4954520800,80.40,GBX,Not available,0.40,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-13 11:26:07,US56035L1044,MAIN,"Main Street Capital",1.0418460000,0.21,USD,Not available,0.17,"GBP",0.04,USD
+Dividend (Dividend),2024-09-13 11:43:52,US7561091049,O,"Realty Income",2.4105630000,0.22,USD,Not available,0.41,"GBP",0.10,USD
+Dividend (Dividend),2024-09-16 10:29:35,US65339F1012,NEE,"NextEra Energy",1.1898970000,0.44,USD,Not available,0.40,"GBP",0.09,USD
+Dividend (Dividend),2024-09-16 10:36:56,US02079K1079,GOOG,"Alphabet (Class C)",1.0453501000,0.17,USD,Not available,0.14,"GBP",0.03,USD
+Dividend (Dividend),2024-09-16 10:59:27,US85254J1025,STAG,"STAG Industrial",0.6538070000,0.10,USD,Not available,0.05,"GBP",0.01,USD
+Dividend (Dividend),2024-09-17 12:35:05,US5801351017,MCD,"McDonald's",0.1925093000,1.42,USD,Not available,0.21,"GBP",0.05,USD
+Dividend (Dividend),2024-09-19 10:48:34,US74348T1025,PSEC,"Prospect Capital",4.7694700000,0.05,USD,Not available,0.18,"GBP",0.04,USD
+Dividend (Dividend),2024-09-20 09:31:20,GB0031348658,BARC,"Barclays",25.7335451000,2.90,GBX,Not available,0.75,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-20 09:37:06,JE00BJ1DLW90,EMG,"Man Group",16.0235422000,4.26,GBX,Not available,0.68,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-20 09:40:50,GB0007980591,BP,"BP",17.3671842000,6.05,GBX,Not available,1.05,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-20 09:47:38,GB00BLDRH360,OSB,"OSB Group",11.9327681000,10.70,GBX,Not available,1.28,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-24 08:14:15,US91324P1021,UNH,"UnitedHealth",0.1570722000,1.79,USD,Not available,0.21,"GBP",0.05,USD
+Dividend (Dividend),2024-09-25 11:18:27,GB00BMBVGQ36,HBR,"Harbour Energy",19.4444400000,10.08,GBX,Not available,1.96,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-25 11:25:19,IE00B2NPKV68,SEMB,"iShares J.P. Morgan USD EM Bond (Dist)",0.5935336200,32.04,GBX,Not available,0.19,"GBP",-0.00,GBX
+Dividend (Dividend),2024-09-25 11:32:02,IE00B42WWV65,VGOV,"Vanguard U.K. Gilt (Dist)",2.4056550000,0.05,GBP,Not available,0.12,"GBP",0.00,GBP
+Dividend (Dividend),2024-09-25 11:46:41,IE00B3XXRP09,VUSA,"Vanguard S&P 500 (Dist)",1.9728110000,0.21,GBP,Not available,0.42,"GBP",-0.00,GBP
+Dividend (Dividend),2024-09-25 12:11:22,IE00BDD48R20,VUSC,"Vanguard USD Corporate 1-3 Year Bond (Dist)",1.0643200000,0.17,EUR,Not available,0.15,"GBP",-0.00,EUR
+Dividend (Dividend),2024-09-25 12:20:54,IE00BKX55T58,VEVE,"Vanguard FTSE Developed World (Dist)",2.0032690000,0.24,GBP,Not available,0.48,"GBP",-0.00,GBP
+Dividend (Dividend),2024-09-26 09:10:11,GB0007188757,RIO,"Rio Tinto",0.8007843000,134.23,GBX,Not available,1.07,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-26 09:26:41,US30303M1027,META,"Meta Platforms",0.1902723000,0.43,USD,Not available,0.06,"GBP",0.01,USD
+Dividend (Dividend),2024-09-27 12:29:58,GB0005603997,LGEN,"Legal & General",43.3043255000,6.00,GBX,Not available,2.60,"GBP",0.00,GBX
+Dividend (Dividend),2024-09-27 12:59:25,US56035L1044,MAIN,"Main Street Capital",1.0418460000,0.26,USD,Not available,0.20,"GBP",0.05,USD
+Dividend (Dividend),2024-09-27 13:03:43,US94106L1098,WM,"Waste Management",0.4397924000,0.64,USD,Not available,0.21,"GBP",0.05,USD
+Dividend (Dividend),2024-09-27 13:12:17,US74144T1088,TROW,"T Rowe Price",0.4839646000,1.05,USD,Not available,0.38,"GBP",0.09,USD
+Dividend (Dividend),2024-09-30 11:10:21,US7134481081,PEP,"PepsiCo",0.3054112000,1.15,USD,Not available,0.26,"GBP",0.06,USD
+Dividend (Dividend),2024-09-30 11:29:56,US5021751020,LTC,"LTC Properties",1.4120120000,0.16,USD,Not available,0.17,"GBP",0.04,USD
+Dividend (Dividend),2024-09-30 11:42:14,IE00BYXVWC37,STHS,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",4.5314200000,0.06,GBP,Not available,0.29,"GBP",0.00,GBP
+Dividend (Dividend),2024-09-30 11:44:25,IE00B7N3YW49,SSHY,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",0.5581520000,0.51,GBP,Not available,0.28,"GBP",-0.00,GBP
+Dividend (Dividend),2024-10-01 10:41:45,US0530151036,ADP,"Automatic Data Processing",0.1990683000,1.19,USD,Not available,0.18,"GBP",0.04,USD
+Dividend (Dividend),2024-10-01 10:53:28,US6541061031,NKE,"Nike",1.2255160000,0.31,USD,Not available,0.29,"GBP",0.07,USD
+Dividend (Dividend),2024-10-02 09:56:41,US4943681035,KMB,"Kimberly-Clark",0.3691354000,1.04,USD,Not available,0.29,"GBP",0.07,USD
+Dividend (Dividend),2024-10-04 11:33:54,CH0044328745,CB,"Chubb",0.1899682000,0.91,USD,Not available,0.13,"GBP",0.00,USD
+Dividend (Property income distribution),2024-10-04 11:42:55,GB00BF0P7H59,SOHO,"Triple Point Social Housing Reit",164.3312190000,1.37,GBX,Not available,2.24,"GBP",0.00,GBX
+Dividend (Dividend),2024-10-09 09:17:53,US00123Q1040,AGNC,"AGNC Investment",5.1416430000,0.10,USD,Not available,0.40,"GBP",0.09,USD
+Dividend (Dividend),2024-10-10 09:04:32,GB00BN7SWP63,GSK,"GSK",3.9303874300,15.00,GBX,Not available,0.59,"GBP",0.00,GBX
+Dividend (Dividend),2024-10-11 10:17:53,IE00BTN1Y115,MDT,"Medtronic",0.6298480000,0.53,USD,Not available,0.25,"GBP",0.11,USD
+Dividend (Dividend),2024-10-11 10:22:59,US3546131018,BEN,"Franklin Resources",2.4791670000,0.26,USD,Not available,0.50,"GBP",0.12,USD
+Dividend (Dividend),2024-10-11 10:31:41,US4523081093,ITW,"Illinois Tool Works",0.2097503000,1.28,USD,Not available,0.20,"GBP",0.05,USD
+Dividend (Dividend),2024-10-15 12:38:43,US85254J1025,STAG,"STAG Industrial",1.3073450000,0.10,USD,Not available,0.11,"GBP",0.02,USD
+Dividend (Dividend),2024-10-15 12:51:59,US2788651006,ECL,"Ecolab",0.2107200000,0.48,USD,Not available,0.08,"GBP",0.02,USD
+Dividend (Dividend),2024-10-15 13:08:26,US7561091049,O,"Realty Income",2.4105630000,0.22,USD,Not available,0.41,"GBP",0.10,USD
+Dividend (Dividend),2024-10-15 13:22:01,US14149Y1082,CAH,"Cardinal Health",0.4998840000,0.43,USD,Not available,0.16,"GBP",0.04,USD
+Dividend (Dividend),2024-10-15 13:30:25,US56035L1044,MAIN,"Main Street Capital",1.3590400000,0.21,USD,Not available,0.22,"GBP",0.05,USD
+Dividend (Dividend),2024-10-17 08:46:20,GB00BPQY8M80,AV,"Aviva",12.1351471000,11.90,GBX,Not available,1.44,"GBP",0.00,GBX
+Dividend (Dividend),2024-10-18 11:32:03,GB00BKFB1C65,MNG,"M&G",28.4531590000,6.60,GBX,Not available,1.88,"GBP",0.00,GBX
+Dividend (Dividend),2024-10-21 07:10:18,US7766961061,ROP,"Roper Technologies",0.1221770000,0.64,USD,Not available,0.06,"GBP",0.01,USD
+Dividend (Dividend),2024-10-22 08:14:23,US74348T1025,PSEC,"Prospect Capital",9.8339900000,0.05,USD,Not available,0.39,"GBP",0.09,USD
+Dividend (Dividend),2024-10-23 07:39:25,IE00B42WWV65,VGOV,"Vanguard U.K. Gilt (Dist)",3.0206230000,0.05,GBP,Not available,0.16,"GBP",0.00,GBP
+Dividend (Dividend),2024-10-23 07:41:36,IE00BDD48R20,VUSC,"Vanguard USD Corporate 1-3 Year Bond (Dist)",1.3657420000,0.17,EUR,Not available,0.20,"GBP",0.00,EUR
+Dividend (Dividend),2024-10-25 10:40:20,US8718291078,SYY,"Sysco",0.8718760000,0.43,USD,Not available,0.29,"GBP",0.07,USD
+Dividend (Dividend),2024-10-29 10:01:38,CA0641491075,BNS,"Bank of Nova Scotia",1.2478530000,0.65,USD,Not available,0.62,"GBP",0.14,USD
+Dividend (Dividend),2024-10-30 10:27:56,IE00B2NPKV68,SEMB,"iShares J.P. Morgan USD EM Bond (Dist)",0.7518522900,21.93,GBX,Not available,0.16,"GBP",-0.00,GBX
+Dividend (Dividend),2024-10-31 09:47:35,GB00BGXQNP29,PHNX,"Phoenix",11.0206464000,26.65,GBX,Not available,2.94,"GBP",0.00,GBX
+Dividend (Dividend),2024-10-31 09:53:07,US5021751020,LTC,"LTC Properties",1.8537070000,0.16,USD,Not available,0.23,"GBP",0.05,USD
+Dividend (Dividend),2024-10-31 09:57:37,IE00BYXVWC37,STHS,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",5.6350400000,0.06,GBP,Not available,0.33,"GBP",0.00,GBP
+Dividend (Dividend),2024-10-31 09:59:49,IE00B7N3YW49,SSHY,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",0.7160230000,0.48,GBP,Not available,0.35,"GBP",-0.00,GBP
+Dividend (Dividend),2024-10-31 10:11:19,US46625H1005,JPM,"JPMorgan Chase & Co",0.7453748000,1.06,USD,Not available,0.61,"GBP",0.14,USD
+Dividend (Dividend),2024-11-01 10:42:32,GB0002875804,BATS,"British American Tobacco",3.6697657600,58.88,GBX,Not available,2.16,"GBP",0.00,GBX
+Dividend (Dividend),2024-11-01 10:52:18,US00206R1023,T,"AT&T",3.0953680000,0.24,USD,Not available,0.57,"GBP",0.13,USD
+Dividend (Dividend),2024-11-06 09:52:24,US5486611073,LOW,"Lowe's",0.6229670000,0.98,USD,Not available,0.47,"GBP",0.11,USD
+Dividend (Dividend),2024-11-08 11:13:27,US6703461052,NUE,"Nucor",0.3375791000,0.46,USD,Not available,0.12,"GBP",0.03,USD
+Dividend (Dividend),2024-11-08 11:26:20,US57636Q1040,MA,"Mastercard",0.2027936000,0.56,USD,Not available,0.09,"GBP",0.02,USD
+Dividend (Dividend),2024-11-12 12:22:54,US00123Q1040,AGNC,"AGNC Investment",6.4988220000,0.10,USD,Not available,0.52,"GBP",0.12,USD
+Dividend (Dividend),2024-11-14 14:19:01,US0378331005,AAPL,"Apple",0.6962358000,0.21,USD,Not available,0.12,"GBP",0.03,USD
+Dividend (Dividend),2024-11-15 16:11:58,US3695501086,GD,"General Dynamics",0.2256821000,1.21,USD,Not available,0.22,"GBP",0.05,USD
+Dividend (Dividend),2024-11-15 16:19:48,US85254J1025,STAG,"STAG Industrial",1.7301530000,0.10,USD,Not available,0.14,"GBP",0.03,USD
+Dividend (Dividend),2024-11-15 16:31:12,US7561091049,O,"Realty Income",2.6077330000,0.22,USD,Not available,0.46,"GBP",0.10,USD
+Dividend (Dividend),2024-11-15 16:41:31,US7427181091,PG,"Procter & Gamble",0.3927672000,0.86,USD,Not available,0.27,"GBP",0.06,USD
+Dividend (Dividend),2024-11-15 17:11:49,US56035L1044,MAIN,"Main Street Capital",1.3590400000,0.21,USD,Not available,0.22,"GBP",0.05,USD
+Dividend (Dividend),2024-11-19 11:39:01,US74348T1025,PSEC,"Prospect Capital",12.6789600000,0.05,USD,Not available,0.51,"GBP",0.11,USD
+Dividend (Dividend),2024-11-20 12:35:16,US1491231015,CAT,"Caterpillar",0.1739677000,1.20,USD,Not available,0.16,"GBP",0.04,USD
+Dividend (Dividend),2024-11-22 10:56:04,CA7800871021,RY,"Royal Bank of Canada",0.5450933000,0.86,USD,Not available,0.37,"GBP",0.08,USD
+Dividend (Dividend),2024-11-26 12:18:03,GB00B1CKQ739,DNLM,"Dunelm",3.2574057900,27.50,GBX,Not available,0.90,"GBP",0.00,GBX
+Dividend (Dividend),2024-11-26 12:23:51,CA0636711016,BMO,"Bank of Montreal",0.7539010000,0.93,USD,Not available,0.56,"GBP",0.12,USD
+Dividend (Dividend),2024-11-27 11:33:38,IE00B2NPKV68,SEMB,"iShares J.P. Morgan USD EM Bond (Dist)",0.7518522900,29.60,GBX,Not available,0.22,"GBP",-0.00,GBX
+Dividend (Dividend),2024-11-27 11:49:26,IE00B42WWV65,VGOV,"Vanguard U.K. Gilt (Dist)",3.0206230000,0.07,GBP,Not available,0.20,"GBP",0.00,GBP
+Dividend (Dividend),2024-11-27 11:52:25,IE00BDD48R20,VUSC,"Vanguard USD Corporate 1-3 Year Bond (Dist)",1.3657420000,0.22,EUR,Not available,0.25,"GBP",-0.00,EUR
+Dividend (Dividend),2024-11-29 12:34:45,US5021751020,LTC,"LTC Properties",1.8537070000,0.16,USD,Not available,0.24,"GBP",0.05,USD
+Dividend (Dividend),2024-11-29 12:41:04,GB00B8SC6K54,UKW,"Greencoat UK Wind",112.2771664000,2.50,GBX,Not available,2.81,"GBP",0.00,GBX
+Dividend (Dividend),2024-11-29 13:07:46,US8552441094,SBUX,"Starbucks",1.8918400000,0.52,USD,Not available,0.77,"GBP",0.17,USD
+Dividend (Dividend),2024-11-29 13:20:48,IE00BYXVWC37,STHS,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",5.6350400000,0.06,GBP,Not available,0.37,"GBP",0.00,GBP
+Dividend (Dividend),2024-11-29 13:23:01,IE00B7N3YW49,SSHY,"PIMCO US Short-Term High Yield Corporate Bond Index (Dist)",0.7160230000,0.53,GBP,Not available,0.38,"GBP",-0.00,GBP
+Dividend (Dividend),2024-12-02 10:35:43,US0010551028,AFL,"Aflac",0.6079765000,0.43,USD,Not available,0.20,"GBP",0.05,USD
+Dividend (Dividend),2024-12-02 10:45:36,US3848021040,GWW,"WW Grainger",0.0654110700,1.74,USD,Not available,0.09,"GBP",0.02,USD
+Dividend (Dividend),2024-12-02 10:56:24,US92826C8394,V,"Visa",0.6894583000,0.50,USD,Not available,0.27,"GBP",0.06,USD
+Dividend (Dividend),2024-12-06 13:16:38,US8243481061,SHW,"Sherwin-Williams",0.1780404000,0.61,USD,Not available,0.08,"GBP",0.02,USD
+Dividend (Dividend),2024-12-10 12:17:11,US00123Q1040,AGNC,"AGNC Investment",6.4988220000,0.10,USD,Not available,0.52,"GBP",0.12,USD
+Dividend (Dividend),2024-12-10 12:29:19,US2910111044,EMR,"Emerson Electric",0.6202174000,0.45,USD,Not available,0.22,"GBP",0.05,USD
+Dividend (Dividend),2024-12-10 12:43:35,US4781601046,JNJ,"Johnson & Johnson",0.4198733000,1.05,USD,Not available,0.35,"GBP",0.08,USD
+Dividend (Dividend),2024-12-10 13:02:17,US1667641005,CVX,"Chevron",1.0240867000,1.39,USD,Not available,1.11,"GBP",0.25,USD
+Dividend (Dividend),2024-12-10 13:20:13,US4592001014,IBM,"IBM",0.3083342000,1.42,USD,Not available,0.34,"GBP",0.08,USD
+Dividend (Dividend),2024-12-12 12:30:59,US0394831020,ADM,"Archer-Daniels-Midland",1.1394660000,0.43,USD,Not available,0.38,"GBP",0.09,USD
+Dividend (Dividend),2024-12-12 12:48:00,US88579Y1010,MMM,"3M",0.4981484000,0.60,USD,Not available,0.23,"GBP",0.05,USD
+Dividend (Dividend),2024-12-12 13:09:08,US5949181045,MSFT,"Microsoft",0.4226661000,0.71,USD,Not available,0.23,"GBP",0.05,USD
+Dividend (Dividend),2024-12-12 13:33:25,US6935061076,PPG,"PPG Industries",0.5107869000,0.58,USD,Not available,0.23,"GBP",0.05,USD
+Dividend (Property income distribution),2024-12-13 14:26:07,GB00BF0P7H59,SOHO,"Triple Point Social Housing Reit",225.7939490000,1.37,GBX,Not available,3.08,"GBP",0.00,GBX
+Dividend (Dividend),2024-12-13 14:30:29,US1729081059,CTAS,"Cintas",0.4601660000,0.33,USD,Not available,0.12,"GBP",0.03,USD
+Dividend (Dividend),2024-12-13 14:41:48,US56035L1044,MAIN,"Main Street Capital",1.3590400000,0.21,USD,Not available,0.22,"GBP",0.05,USD
+Dividend (Dividend),2024-12-13 14:56:26,US7561091049,O,"Realty Income",2.6077330000,0.22,USD,Not available,0.46,"GBP",0.10,USD
