@@ -45,14 +45,16 @@ for index, row in df.iterrows():
                     divvies[year][month][day][row['Ticker']] = {
                         'name': row['Name'],
                         'time': row['Time'],
-                        'total': row['Total']
+                        'total': row['Total'],
+                        'ticker': row['Ticker']
                     }
             else:
                 divvies[year][month][day] = {
                         row['Ticker']: {
                             'name': row['Name'],
                             'time': row['Time'],
-                            'total': row['Total']
+                            'total': row['Total'],
+                            'ticker': row['Ticker']
                         }
                 }
         else:
@@ -61,7 +63,8 @@ for index, row in df.iterrows():
                         row['Ticker']: {
                             'name': row['Name'],
                             'time': row['Time'],
-                            'total': row['Total']
+                            'total': row['Total'],
+                            'ticker': row['Ticker']
                         }
                     }
                 }
@@ -72,7 +75,8 @@ for index, row in df.iterrows():
                     row['Ticker']: {
                         'name': row['Name'],
                         'time': row['Time'],
-                        'total': row['Total']
+                        'total': row['Total'],
+                        'ticker': row['Ticker']
                     }
                 }
             }
@@ -90,5 +94,17 @@ for k, v in tickerTotal.items():
 st.write('Total', round(totalVal, 2))
 st.bar_chart(tickerTotal)
 
-st.write(divvies)
+year = st.selectbox(
+    "Pick Year",
+    divvies.keys(),
+)
+
+month = st.selectbox(
+    "Pick Month",
+    divvies[year].keys(),
+)
+
+st.write("You selected:", year, month)
+
+st.write(divvies[year][month])
 st.button("Re-run")
