@@ -106,5 +106,23 @@ month = st.selectbox(
 
 st.write("You selected:", year, month)
 
-st.write(divvies[year][month])
+
+monthlyTickerTotal = defaultdict(float)
+def getTotalValuesFromMonth(monthlyDivvies):
+    for dailyDivvies in monthlyDivvies:
+        for div in monthlyDivvies[dailyDivvies]:
+            print(div)
+            print(monthlyDivvies[dailyDivvies][div])
+            #monthlyTickerTotal[monthlyDivvies[dailyDivvies][div]] = monthlyDivvies[dailyDivvies][div]
+            monthlyTickerTotal[div] = monthlyDivvies[dailyDivvies][div]['total']
+
+
+getTotalValuesFromMonth(divvies[year][month])
+
+monthlyVal = 0
+for k, v in monthlyTickerTotal.items():
+    monthlyVal += v
+
+st.write('Total', round(monthlyVal, 2))
+st.bar_chart(monthlyTickerTotal)
 st.button("Re-run")
