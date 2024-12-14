@@ -150,12 +150,45 @@ if uploaded_file is not None:
             for day in divviesUptoMonth[year][month].keys():
                 for divvie in divviesUptoMonth[year][month][day].keys():
                     startingValueFromMonth += divviesUptoMonth[year][month][day][divvie]['total']
-                        
+        
+    col1, col2 = st.columns(2)
     
-    st.write('you started with that month with', round(startingValueFromMonth, 2))
-    if startingValueFromMonth == 0:
-        st.write('no prev monthly data')
-    else:
-        st.write('with a monthly increase of: ', round((monthlyVal / startingValueFromMonth) * 100,2))
-    st.bar_chart(monthlyTickerTotal)
+    with col1:
+        st.write('you started with that month with', round(startingValueFromMonth, 2))
+        if startingValueFromMonth == 0:
+            st.write('no prev monthly data')
+        else:
+            st.write('with a monthly increase of: ', round((monthlyVal / startingValueFromMonth) * 100,2))
+        st.bar_chart(monthlyTickerTotal)
+    with col2:
+        monthlyAcc = st.radio(
+            "Would you like total increase or percentage for year (includes current month)",
+            ["total", "percentage"],
+            index=None,
+        )
+
+        st.write("You selected:", monthlyAcc)
+        st.write("only total works now - percentage soon land")
+        
+        monthlyTotals = defaultdict(float)
+        percentageTotals = defaultdict(float)
+        
+        for month in divvies[yearSelected]:
+            val = 0
+            for day in divvies[year][month].keys():
+                for divvie in divvies[year][month][day].keys():
+                    val += divvies[year][month][day][divvie]['total']
+                    
+            monthlyTotals[month] = round(val, 2)
+        
+        if monthlyAcc is None:
+            st.bar_chart(monthlyTotals)
+        
+        if monthlyAcc == 'total':
+            st.bar_chart(monthlyTotals)
+            
+        if monthlyAcc == 'percentage':
+            print('soon')
+        
+        
     st.button("Re-run")
