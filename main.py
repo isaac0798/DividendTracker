@@ -153,6 +153,9 @@ if uploaded_file is not None:
                         
     
     st.write('you started with that month with', round(startingValueFromMonth, 2))
-    st.write('with a monthly increase of: ', round((monthlyVal / startingValueFromMonth),2 ))
+    if startingValueFromMonth == 0:
+        st.write('no prev monthly data')
+    else:
+        st.write('with a monthly increase of: ', round((monthlyVal / startingValueFromMonth),2))
     st.bar_chart(monthlyTickerTotal)
     st.button("Re-run")
