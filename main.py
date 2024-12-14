@@ -168,18 +168,23 @@ if uploaded_file is not None:
         )
 
         st.write("You selected:", monthlyAcc)
-        st.write("only total works now - percentage soon land")
         
         monthlyTotals = defaultdict(float)
         percentageTotals = defaultdict(float)
         
+        uptoTotalVal = 0
         for month in divvies[yearSelected]:
             val = 0
+            pVal = 0
             for day in divvies[year][month].keys():
                 for divvie in divvies[year][month][day].keys():
                     val += divvies[year][month][day][divvie]['total']
-                    
+                    uptoTotalVal += divvies[year][month][day][divvie]['total']
+            
+
+            pVal = round((val / uptoTotalVal), 2)
             monthlyTotals[month] = round(val, 2)
+            percentageTotals[month] = pVal
         
         if monthlyAcc is None:
             st.bar_chart(monthlyTotals)
@@ -188,7 +193,7 @@ if uploaded_file is not None:
             st.bar_chart(monthlyTotals)
             
         if monthlyAcc == 'percentage':
-            print('soon')
+            st.bar_chart(percentageTotals)
         
         
     st.button("Re-run")
