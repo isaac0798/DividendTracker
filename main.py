@@ -168,6 +168,7 @@ if uploaded_file is not None:
         )
 
         st.write("You selected:", monthlyAcc)
+        st.write("only total works now - percentage percent of total dividends by E.O.M")
         
         monthlyTotals = defaultdict(float)
         percentageTotals = defaultdict(float)
