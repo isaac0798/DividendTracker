@@ -4,6 +4,7 @@ import time
 import pandas
 from collections import defaultdict
 
+st.set_page_config(layout="wide")
 st.write('Dividend Tracker')
 
 uploaded_file = st.file_uploader("Choose a file")
@@ -84,117 +85,120 @@ if uploaded_file is not None:
                     }
                 }
             }
-            
-
-    #print(tickerTotal)
 
     totalVal = 0
     for k, v in tickerTotal.items():
         totalVal += v
-        
-    #print(round(totalVal, 2))
 
-    st.write('Total', round(totalVal, 2))
-    st.bar_chart(tickerTotal)
-
-    yearSelected = st.selectbox(
-        "Pick Year",
-        divvies.keys(),
-    )
-
-    monthSelected = st.selectbox(
-        "Pick Month",
-        divvies[year].keys(),
-    )
-
-    st.write("You selected:", yearSelected, monthSelected)
-
-
-    monthlyTickerTotal = defaultdict(float)
-    def getTotalValuesFromMonth(monthlyDivvies):
-        for dailyDivvies in monthlyDivvies:
-            for div in monthlyDivvies[dailyDivvies]:
-                monthlyTickerTotal[div] = monthlyDivvies[dailyDivvies][div]['total']
-
-
-    getTotalValuesFromMonth(divvies[yearSelected][monthSelected])
-
-    monthlyVal = 0
-    for k, v in monthlyTickerTotal.items():
-        monthlyVal += v
-
-    st.write('Total', round(monthlyVal, 2))
+    overviewCol, monthlyCol = st.columns(2)
     
-    def getTotalValueFromDate():
-        uptoDivvies = {}
-        for year in divvies.keys():
-            if year not in uptoDivvies:
-                uptoDivvies[year] = {}
-            
-            if year == yearSelected:
-                for month in divvies[year].keys():
-                    if month not in uptoDivvies[year]:
-                        uptoDivvies[year][month] = {}
-            
-                    if monthSelected == month:
-                        break
-                    else:
-                        uptoDivvies[year][month] = divvies[year][month]
-
-        return uptoDivvies
-                        
-    divviesUptoMonth = getTotalValueFromDate()
-    startingValueFromMonth = 0
-    for year in divviesUptoMonth:
-        for month in divviesUptoMonth[year]:
-            for day in divviesUptoMonth[year][month].keys():
-                for divvie in divviesUptoMonth[year][month][day].keys():
-                    startingValueFromMonth += divviesUptoMonth[year][month][day][divvie]['total']
+    with overviewCol:  
+        st.header('Overview Data')
         
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.write('you started with that month with', round(startingValueFromMonth, 2))
-        if startingValueFromMonth == 0:
-            st.write('no prev monthly data')
-        else:
-            st.write('with a monthly increase of: ', round((monthlyVal / startingValueFromMonth) * 100,2))
-        st.bar_chart(monthlyTickerTotal)
-    with col2:
-        monthlyAcc = st.radio(
-            "Would you like total increase or percentage for year (includes current month)",
-            ["total", "percentage"],
-            index=None,
+        st.write('Total', round(totalVal, 2))
+        
+        st.bar_chart(tickerTotal)
+        st.table(tickerTotal)
+
+    with monthlyCol:
+        st.header('Monthly Data')
+        yearSelected = st.selectbox(
+            "Pick Year",
+            divvies.keys(),
         )
 
-        st.write("You selected:", monthlyAcc)
-        st.write("only total works now - percentage percent of total dividends by E.O.M")
-        
-        monthlyTotals = defaultdict(float)
-        percentageTotals = defaultdict(float)
-        
-        uptoTotalVal = 0
-        for month in divvies[yearSelected]:
-            val = 0
-            pVal = 0
-            for day in divvies[year][month].keys():
-                for divvie in divvies[year][month][day].keys():
-                    val += divvies[year][month][day][divvie]['total']
-                    uptoTotalVal += divvies[year][month][day][divvie]['total']
-            
+        monthSelected = st.selectbox(
+            "Pick Month",
+            divvies[year].keys(),
+        )
 
-            pVal = round((val / uptoTotalVal), 2)
-            monthlyTotals[month] = round(val, 2)
-            percentageTotals[month] = pVal
+        st.write("You selected:", yearSelected, monthSelected)
+
+
+        monthlyTickerTotal = defaultdict(float)
+        def getTotalValuesFromMonth(monthlyDivvies):
+            for dailyDivvies in monthlyDivvies:
+                for div in monthlyDivvies[dailyDivvies]:
+                    monthlyTickerTotal[div] = monthlyDivvies[dailyDivvies][div]['total']
+
+
+        getTotalValuesFromMonth(divvies[yearSelected][monthSelected])
+
+        monthlyVal = 0
+        for k, v in monthlyTickerTotal.items():
+            monthlyVal += v
+
+        st.write('Total', round(monthlyVal, 2))
         
-        if monthlyAcc is None:
-            st.bar_chart(monthlyTotals)
-        
-        if monthlyAcc == 'total':
-            st.bar_chart(monthlyTotals)
+        def getTotalValueFromDate():
+            uptoDivvies = {}
+            for year in divvies.keys():
+                if year not in uptoDivvies:
+                    uptoDivvies[year] = {}
+                
+                if year == yearSelected:
+                    for month in divvies[year].keys():
+                        if month not in uptoDivvies[year]:
+                            uptoDivvies[year][month] = {}
+                
+                        if monthSelected == month:
+                            break
+                        else:
+                            uptoDivvies[year][month] = divvies[year][month]
+
+            return uptoDivvies
+                            
+        divviesUptoMonth = getTotalValueFromDate()
+        startingValueFromMonth = 0
+        for year in divviesUptoMonth:
+            for month in divviesUptoMonth[year]:
+                for day in divviesUptoMonth[year][month].keys():
+                    for divvie in divviesUptoMonth[year][month][day].keys():
+                        startingValueFromMonth += divviesUptoMonth[year][month][day][divvie]['total']
             
-        if monthlyAcc == 'percentage':
-            st.bar_chart(percentageTotals)
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.write('you started with that month with', round(startingValueFromMonth, 2))
+            if startingValueFromMonth == 0:
+                st.write('no prev monthly data')
+            else:
+                st.write('with a monthly increase of: ', round((monthlyVal / startingValueFromMonth) * 100,2))
+            st.bar_chart(monthlyTickerTotal)
+        with col2:
+            monthlyAcc = st.radio(
+                "Would you like total increase or percentage for year (includes current month)",
+                ["total", "percentage"],
+                index=None,
+            )
+
+            st.write("You selected:", monthlyAcc)
+            
+            monthlyTotals = defaultdict(float)
+            percentageTotals = defaultdict(float)
+            
+            uptoTotalVal = 0
+            for month in divvies[yearSelected]:
+                val = 0
+                pVal = 0
+                for day in divvies[year][month].keys():
+                    for divvie in divvies[year][month][day].keys():
+                        val += divvies[year][month][day][divvie]['total']
+                        uptoTotalVal += divvies[year][month][day][divvie]['total']
+                
+
+                pVal = round((val / uptoTotalVal), 2)
+                monthlyTotals[month] = round(val, 2)
+                percentageTotals[month] = pVal
+            
+            if monthlyAcc is None:
+                st.bar_chart(monthlyTotals)
+            
+            if monthlyAcc == 'total':
+                st.bar_chart(monthlyTotals)
+                
+            if monthlyAcc == 'percentage':
+                st.bar_chart(percentageTotals)
         
         
     st.button("Re-run")
